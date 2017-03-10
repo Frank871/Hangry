@@ -1,0 +1,78 @@
+Body {
+	background-color: lightslategray;
+}
+
+
+.buttons{
+
+	width: 60%;
+	position: relative;
+	left: 200px;
+}
+.user-input {
+
+	width: 60%;
+	position: relative;
+	left: 200px;
+}
+h2 {
+
+	position: relative;
+	left: 480px;
+
+}
+
+#add-user{
+
+	width: 30%;
+	position: relative;
+	left: 300px;
+}
+
+.buyto {
+	width: 60%;
+	position: relative;
+	left: 300px;
+}
+
+.readyto {
+	width: 60%;
+	position: relative;
+	left: 300px;
+}
+
+#button1 {
+    border: 10px;
+    background: black;
+    border-radius: 10px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#button2 {
+    border: 10px;
+    background: firebrick;
+    border-radius: 10px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#submit {
+  background: firebrick;
+  width: 60%;
+	position: relative;
+	left: 200px;
+}
+
