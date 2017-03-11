@@ -1,0 +1,140 @@
+body {
+	font-family: 'Finger Paint', cursive;
+	color: black;
+	background-image: url("../images/metal.png");
+}
+
+
+
+h2 {
+
+	position: relative;
+	left: 480px;
+
+}
+
+
+a {
+
+font:10px; color:white;
+
+}
+
+#recipes {
+
+	background: firebrick;
+	color: black;
+	text-align: center;
+
+
+}
+
+.recipes {
+
+	width: 50%;
+	position: relative;
+	left: 300px;
+}
+#results {
+
+	background: firebrick;
+	color: black;
+	text-align: center;
+
+
+}
+.results {
+
+	width: 50%;
+	position: relative;
+	left: 300px;
+}
+
+#store{
+
+	background: firebrick;
+	color: black;
+	text-align: center;
+}
+.store {
+	position: relative;
+	float: right;
+    right: 1px;
+	width: 50%;
+}
+.ingredients{
+	width: 50%;
+	position: relative;
+	left: 300px;
+}
+
+#ingredients{
+
+    background: firebrick;
+	color: black;
+	text-align: center;
+	
+}
+
+.user-input {
+
+	width: 60%;
+	position: relative;
+	left: 200px;
+}
+
+#add-user{
+
+	width: 30%;
+	position: relative;
+	left: 300px;
+}
+
+
+
+#button1 {
+	width: 30%;
+    left: 300px;
+    border: 10px;
+    background: black;
+    border-radius: 10px;
+}
+
+
+
+#button2 {
+	left: 94px;
+	width: 30%;
+    font:10px; color: black;
+    border: 10px;
+    background: firebrick;
+    border-radius: 10px;
+}
+.form-group{
+	position: relative;
+	width: 40%;
+    top: 100px;
+    left: 100px;
+}
+
+#submit {
+
+  color:black;
+  background: firebrick;
+  position: relative;
+ 
+}
+
+#button3 {
+  color: white;
+  background: black;
+  position: relative;
+ 
+}
+
+#go {
+
+   color:black;
+  background: firebrick;
+  position: relative;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+<meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+     body {
+      background-size: 100%;
+      background-image: url("https://cdn.shutterstock.com/shutterstock/videos/4087894/thumb/6.jpg?i10c=img.resize(height:160)");
+     }
+     </style>
+    <!--title-->
+
+    <title>Hangry</title>
+</head>
+<body>
+<div class="main-container">
+<!---heading-->
+<h2> What's in your fridge?</h2>
+
+
+<!---Ready to make inside your fridge already-->
+<div class="results">
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div id="results" class="panel-heading">Results</div>
+  <div class="panel-body">
+
+<!---just an example can delete to input js/jquery data-->
+  <ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">14</span>
+    Pancakes
+  </li>
+</ul>
+    
+  </div>
+</div>
+</div>
+<br>
+<!--Buy to make area add or make new reciepes-->
+<div class="recipes">
+<div class="panel panel-danger">
+  <!-- Default panel contents -->
+  <div id="recipes" class="panel-heading">Recipes</div>
+  <div class="panel-body">
+
+<!---just an example can delete to input js/jquery data-->
+  <ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">10</span>
+     Add flour and smash it.
+  </li>
+  </ul>
+  </div>
+  </div>
+  <!---search area for stores-->
+  <div class="store">
+  <div class="panel panel-danger">
+  <div id="store" class="panel-heading">Stores near you!</div>
+  <div class="panel-body">
+
+    <form role="form">
+      <div class="form-group2">
+               <label for="findstore-input"></label>
+               <input class="form-control" placeholder="Zip Code" id="findstore-input" type="text">
+               <button id="go" class="btn btn-danger" id="add-user" type="submit">Go</button>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <br>
+  <!---buttons for user input or return to home screen-->
+
+  <div class="finish">
+  
+      <div class="form-group1">
+       <button id="button3" class="btn btn-default"> <a href="index.html">Home</a></button>
+      <button id="submit" class="btn btn-danger" id="add-user" type="submit">Submit</button>
+      </div>
+ </div>
+ </div>
+ </div>
+	
+</body>
+</html>
