@@ -1,15 +1,29 @@
 body {
+	max-width: 900px;
 	font-family: 'Finger Paint', cursive;
 	color: black;
 	background-image: url("../images/metal.png");
 }
 
+h1 {
 
+	top: 100px;
+	font-size: 100px;
+    left: 480px
+
+}
+
+.logo{
+
+   top: 100px;
+   left: 550px;
+
+}
 
 h2 {
-
-	position: relative;
-	left: 480px;
+ font-size: 30px;
+ position: relative;
+ left: 60px;
 
 }
 
@@ -17,6 +31,12 @@ h2 {
 a {
 
 font:10px; color:white;
+
+}
+
+.main-container {
+
+ max-width: 960px;
 
 }
 
@@ -31,8 +51,7 @@ font:10px; color:white;
 
 .recipes {
 
-	width: 50%;
-	position: relative;
+	width: 80%;
 	left: 300px;
 }
 #results {
@@ -45,8 +64,7 @@ font:10px; color:white;
 }
 .results {
 
-	width: 50%;
-	position: relative;
+	width: 80%;
 	left: 300px;
 }
 
@@ -58,18 +76,21 @@ font:10px; color:white;
 }
 .store {
 	position: relative;
+	top: 200px;
 	float: right;
     right: 1px;
 	width: 50%;
 }
 .ingredients{
-	width: 50%;
-	position: relative;
-	left: 300px;
+	top: 20px;
+	position:  relative;
+	float: left;
+	width: 70%;
+	
 }
 
 #ingredients{
-
+    
     background: firebrick;
 	color: black;
 	text-align: center;
@@ -79,22 +100,20 @@ font:10px; color:white;
 .user-input {
 
 	width: 60%;
-	position: relative;
 	left: 200px;
 }
 
 #add-user{
 
 	width: 30%;
-	position: relative;
 	left: 300px;
 }
 
 
 
 #button1 {
+	top:  20px;
 	width: 30%;
-    left: 300px;
     border: 10px;
     background: black;
     border-radius: 10px;
@@ -103,15 +122,15 @@ font:10px; color:white;
 
 
 #button2 {
-	left: 94px;
-	width: 30%;
+	top:  20px;
+    width: 40%;
     font:10px; color: black;
     border: 10px;
     background: firebrick;
     border-radius: 10px;
 }
 .form-group{
-	position: relative;
+	
 	width: 40%;
     top: 100px;
     left: 100px;
@@ -119,10 +138,17 @@ font:10px; color:white;
 
 #submit {
 
+  float: left;
   color:black;
   background: firebrick;
-  position: relative;
+  
  
+}
+
+.finish {
+   top: 200px;
+   position: relative;
+   float: left;
 }
 
 #button3 {
@@ -133,8 +159,8 @@ font:10px; color:white;
 }
 
 #go {
-
-   color:black;
+  color:black;
   background: firebrick;
   position: relative;
 }
+
