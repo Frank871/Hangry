@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+
+
     <title>Hangry</title>
 </head>
 <body>
@@ -37,25 +42,26 @@
 <!--ingredients here-->
 <div class="ingredients">
 <div class="panel panel-default">
-  	<div id="ingredients" class="panel-heading">Ingredients</div>
-  	<div class="panel-body">
-          
-	</div>
+    <div id="ingredients" class="panel-heading">Ingredients</div>
+    <div class="panel-body">
+
+  </div>
 </div>
 </div>
-<div class="user-input">
-  <!---find food-->
-   <form role="form">
-      <div class="form-group">
-               <label for="findfood-input"></label>
-               <input class="form-control" placeholder="Find Food" id="findfood-input" type="
-               text">
-               <button id="submit" class="btn btn-danger" id="add-user" type="submit">Submit</button>
-              </div>
-        </form>
+
+<form>
+      <span id="todo-item">To Do Item: <input id="to-do" type="text" ><input id="add-to-do" type="submit"></span>
+</form>
+
+    <hr>
+
+    <!-- To-Do List -->
+    <div id="to-dos"></div>
+       
  </div>      
 </div>
 
-	
+<script src="assets/javascript/index.js"></script>
+
 </body>
 </html>
