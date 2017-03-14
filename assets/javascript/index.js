@@ -1,4 +1,4 @@
-// Create an initial foodList variable
+
       var config = {
     apiKey: "AIzaSyCkdKbGAFizbTfKB6hQHmtwHAw0PaWaUrE",
     authDomain: "hangry-b32e3.firebaseapp.com",
@@ -35,6 +35,21 @@
 
   // Clears all of the text-boxes
   $("data-to-do").val("");
+
+        //  // Here we construct our URL
+        // var queryURL = "https://api.edamam.com/search?app_key=670728d7841ac0e159d0b3461150d48b&q=onion",
+
+        // // Write code between the dashes below to hit the queryURL with $ajax, then take the response data
+        // // and display it in the div with an id of movie-view
+
+        // //------YOUR CODE GOES IN THESE DASHES. DO NOT MANUALLY EDIT THE HTML ABOVE.
+
+        // $.ajax({
+        //   url: queryURL,
+        //   method: "GET"
+        // }).done(function(response) {
+        //   $("#data-to-do").text(JSON.stringify(response));
+        // });
 
   // Prevents moving to new page
   return false;
@@ -90,6 +105,32 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
          $("#data-to-do > tbody").append("<tr><td>" + newIngredient + "</td><td>");
 
     });
+
+    
+  // Create an initial foodList variable
+   $("#button2").on("click", function(event) {
+
+        // event.preventDefault() can be used to prevent an event's default behavior.
+        // Here, it prevents the submit button from trying to submit a form when clicked
+        event.preventDefault();
+
+        // Here we grab the text from the input box
+        var movie = $("#data-to-do").val();
+
+        // Here we construct our URL
+        var queryURL = "https://api.edamam.com/search?app_key=670728d7841ac0e159d0b3461150d48b&q=onion",
+
+        // Write code between the dashes below to hit the queryURL with $ajax, then take the response data
+        // and display it in the div with an id of movie-view
+
+        //------YOUR CODE GOES IN THESE DASHES. DO NOT MANUALLY EDIT THE HTML ABOVE.
+
+        $.ajax({
+          url: queryURL,
+          method: "GET"
+        }).done(function(response) {
+          $("#data-to-do").text(JSON.stringify(response));
+        });
 
 
 
