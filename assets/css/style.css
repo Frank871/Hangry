@@ -111,9 +111,9 @@ font:10px; color:white;
 	left: 200px;
 }
 
-#add-user{
+#add-food{
 
-	width: 30%;
+	width: 40%;
 	left: 300px;
 }
 
@@ -131,7 +131,7 @@ font:10px; color:white;
 
 #button2 {
 	top:  20px;
-    width: 40%;
+    width: 50%;
     font:10px; color: black;
     border: 10px;
     background: firebrick;
@@ -144,7 +144,7 @@ font:10px; color:white;
     left: 100px;
 }
 
-#submit {
+#foodfind {
 
   float: left;
   color:black;
