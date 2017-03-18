@@ -13,7 +13,7 @@ var config = {
    var foodList = 0;
 
    //  On Click event associated with the add-to-do function
-   $("#add-to-do").on("click", function(event){
+   $("#add-to-do").on("click", function(event) {
      event.preventDefault();
 
        // Grabs user input
@@ -116,4 +116,4 @@ database.ref().on("child_added", function(childSnapshot) {
 
      // $("#data-to-do > tbody").append("<tr><td>" + ingredient + "is so good for you!" + "</td><td>");
 
-   }); 
+   });

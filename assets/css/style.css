@@ -1,24 +1,29 @@
 body {
-	max-width: 900px;
-	font-family: 'Finger Paint', cursive;
-	color: black;
-	background-image: url("../images/metal.png");
-}
+
+
+  font-family: 'Finger Paint', cursive;
+	background: url("../images/food_and_board.jpg"); 
+  
+   
+  }
+
+
+
 
 h1 {
-    position:  relative;
+  position:  relative;
 	top: 20px;
 	font-size: 100px;
 	left: 100px;
-
-   
-
+  color: white;
 }
 
 .logo{
-    top: 50px;
-	position: relative;
-	left: 180px;
+	top: 50px;
+  position: relative;
+  left: 180px;
+  
+  
 }
 
 .logo1 {
@@ -32,6 +37,8 @@ h2 {
  font-size: 30px;
  position: relative;
  left: 50px;
+  text-align: center;
+  padding-top: 30px;
 
 }
 
@@ -42,123 +49,16 @@ font:10px; color:white;
 
 }
 
-.main-container {
-
- max-width: 960px;
-   margin: 0 auto;
-     
-
-}
-
-#recipes {
-
-	background: firebrick;
-	color: black;
-	text-align: center;
-
-
-}
-
-.recipes {
-
-	width: 80%;
-	left: 300px;
-}
-#results {
-
-	background: firebrick;
-	color: black;
-	text-align: center;
-
-
-}
-.results {
-
-	width: 80%;
-	left: 300px;
-}
-
 #store{
 
-	background: firebrick;
-	color: black;
-	text-align: center;
-}
-.store {
-	position: relative;
-	top: 200px;
-	float: right;
-    right: 1px;
-	width: 50%;
-}
-.ingredients{
-	top: 20px;
-	position:  relative;
-	float: left;
-	width: 70%;
-	
-}
-
-#ingredients{
-    
-    background: firebrick;
-	color: black;
-	text-align: center;
-	
-}
-
-.user-input {
-
-	width: 60%;
-	left: 200px;
-}
-
-#add-food{
-
-	width: 40%;
-	left: 300px;
-}
-
-
-
-#button1 {
-	top:  20px;
-	width: 30%;
-    border: 10px;
-    background: black;
-    border-radius: 10px;
-}
-
-
-
-#button2 {
-	top:  20px;
-    width: 50%;
-    font:10px; color: black;
-    border: 10px;
-    background: firebrick;
-    border-radius: 10px;
-}
-.form-group{
-	
-	width: 40%;
-    top: 100px;
-    left: 100px;
-}
-
-#foodfind {
-
-  float: left;
-  color:black;
   background: firebrick;
-  
- 
+  color: black;
+  text-align: center;
 }
 
-.finish {
-   top: 200px;
-   position: relative;
-   float: left;
+.panel-body {
+  background: black;
+
 }
 
 #button3 {
@@ -174,3 +74,45 @@ font:10px; color:white;
   position: relative;
 }
 
+.user-input {
+
+  width: 60%;
+  left: 200px;
+}
+
+#add-user{
+
+  width: 30%;
+  left: 300px;
+}
+
+#button1 {
+  top:  20px;
+  width: 30%;
+    border: 10px;
+    background: black;
+    border-radius: 10px;
+}
+
+
+
+#button2 {
+  top:  20px;
+    width: 40%;
+    font:10px; color: black;
+    border: 10px;
+    background: firebrick;
+    border-radius: 10px;
+}
+
+.sub-container {
+
+  position: relative;
+  height: 100px;
+}
+
+#to-do{
+  position: relative;
+  margin: 40px;
+
+}
